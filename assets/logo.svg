@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Survey logo">
+  <rect width="128" height="128" rx="26" fill="#eaf0ff"/>
+  <rect x="22" y="22" width="84" height="84" rx="18" fill="#3056d3"/>
+  <path d="M42 69.5l15 15 28-34" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="91" cy="44" r="10" fill="#ffffff" opacity="0.9"/>
+</svg>

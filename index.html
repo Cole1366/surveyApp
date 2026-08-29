@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kadikomu Interview App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <div class="brand-wrap">
+          <img src="assets/logo.svg" alt="Kadikomu logo" class="brand-logo" />
+          <div>
+            <p class="eyebrow">Interview Portal</p>
+            <h1>Kadikomu Digital System</h1>
+          </div>
+        </div>
+      </header>
+
+      <main class="main-panel">
+        <section id="homeView" class="view active">
+          <div class="hero-card">
+            <span class="badge">Member Review</span>
+            <h2>Interview Questionnaire</h2>
+            <p>
+              Use this app to record responses to the Kadikomu interview questions.
+              Answers are saved in your browser and can be downloaded as a PDF at the end.
+            </p>
+
+            <div class="home-actions">
+              <button id="startBtn" class="primary-btn">Start Interview</button>
+              <button id="resumeBtn" class="secondary-btn hidden">Resume Saved</button>
+              <button id="newBtn" class="ghost-btn hidden">Start New</button>
+            </div>
+
+            <div id="savedNotice" class="saved-notice">No saved answers yet.</div>
+          </div>
+        </section>
+
+        <section id="quizView" class="view">
+          <div class="progress-bar">
+            <div id="progressFill" class="progress-fill"></div>
+          </div>
+
+          <div class="question-card">
+            <p id="questionMeta" class="question-meta"></p>
+            <h3 id="questionText"></h3>
+
+            <div class="input-wrap">
+              <textarea id="answerInput" rows="5" placeholder="Type your answer..."></textarea>
+            </div>
+
+            <div class="nav-actions">
+              <button id="prevBtn" class="secondary-btn">Previous</button>
+              <button id="nextBtn" class="primary-btn">Next</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="summaryView" class="view">
+          <div class="summary-card">
+            <div class="summary-header">
+              <div>
+                <p class="eyebrow">Review Your Answers</p>
+                <h2>Interview Summary</h2>
+              </div>
+              <button id="editBtn" class="secondary-btn">Edit Answers</button>
+            </div>
+
+            <div id="summaryList" class="summary-list"></div>
+
+            <div class="final-actions">
+              <button id="downloadBtn" class="primary-btn">Download PDF</button>
+              <button id="homeBtn" class="secondary-btn">Return Home</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
