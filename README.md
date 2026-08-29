@@ -2,7 +2,7 @@
 # Kadikomu Interview App
 
 Kadikomu Interview App is a lightweight, secure, browser‑based questionnaire system built with **HTML, CSS, and JavaScript**. It runs fully offline, storing answers locally so no data is shared or stolen. Users can design surveys, save progress, and export responses as professional PDFs.
-Note: After generating or downloading the PDF, it will be saved as kadikomu-interview-answers.pdf. You can simply rename the file to whatever you prefer. 😁👍
+Note: After generating or downloading the PDF, it will be saved as kadikomu-interview-answers.pdf. You can simply rename the file to whatever you prefer. 😁👍. checkout here  https://cole1366.github.io/surveyApp/
 ---
 
 ## ✨ Features
