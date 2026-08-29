@@ -1,6 +1,3 @@
-Here’s a clear **README.md draft** for your project that explains both how to customize the questions and how to set it up locally on a PC:
-
----
 
 # Kadikomu Interview App
 
